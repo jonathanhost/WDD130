@@ -1,0 +1,47 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: rgb(189, 183, 178);
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #150652;
+  font-size: 50;
+  height: 100px;
+  border-style: solid;
+}
+nav > a {
+  font-size: 50;
+  text-decoration: none;
+  color: white;
+  padding-right: 50px;
+  border-style: solid;
+}
+nav > a:hover {
+  text-decoration: none;
+  color: black;
+  padding-right: 50px;
+}
+nav > img {
+  border-top: -20;
+  border-bottom: 0;
+  padding-left: 0px;
+  height: 100px;
+  width: 170px;
+}
+h1,
+p {
+  text-align: center;
+}
+
+img {
+  padding-left: 25%;
+}
+
+footer {
+  text-align: center;
+}
