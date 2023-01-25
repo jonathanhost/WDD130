@@ -1,15 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 #content {
   max-width: 1600px;
   margin: 0 auto;
 }
 
-#hero-box {
-  width: max-content;
-}
 nav a {
   text-align: center;
   color: #fcfbfb;
@@ -33,7 +26,7 @@ section {
 }
 #background {
   height: 725px;
-  background-color: #932f6d;
+  background-color: #420039;
 }
 
 body {
@@ -53,13 +46,43 @@ footer {
 }
 footer p {
   font-size: 1.2em;
+  color: #dcccff;
+}
+footer a {
+  text-decoration: none;
+  color: #dcccff;
 }
 footer p a:hover {
   text-decoration: underline;
+  color: #e07be0;
 }
 .icon {
   width: 80px;
 }
 .msg {
   background-color: #932f6d;
+}
+
+.logo img {
+  width: 80px;
+}
+
+.book {
+  background-color: #932f6d;
+  text-decoration: none;
+  color: #dcccff;
+}
+.book:hover {
+  background-color: #420039;
+  color: #dcccff;
+}
+.join {
+  background-color: #e07be0;
+  text-decoration: none;
+  color: #420039;
+}
+.join:hover {
+  background-color: #420039;
+  text-decoration: none;
+  color: #dcccff;
 }
