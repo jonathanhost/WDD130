@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(250, 148, 187);
+}
+.title {
+  color: white;
+  text-align: center;
+  font-size: 4em;
+}
+
+.title:hover {
+  color: black;
+}
+.phrase-title p {
+  color: white;
+  text-align: center;
+}
+
+.phrase-title h3 {
+  color: white;
+  text-align: center;
+}
+
+.list {
+  text-align: center;
+}
+.list ol {
+  display: inline-block;
+  text-align: left;
+  font-weight: bold;
+}
+.list li {
+  padding-bottom: 9px;
+}
+
+img {
+  width: 150px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.banner h1 {
+  font-size: 2em;
+  width: 300px;
+  height: 250px;
+  color: white;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  text-align: center;
+}
