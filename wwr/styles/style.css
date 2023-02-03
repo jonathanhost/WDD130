@@ -1,48 +1,52 @@
-#content {
-  max-width: 1600px;
-  margin: 0 auto;
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Roboto:wght@100;400&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  background-color: #dcccff;
+  color: #420039;
 }
 
 nav a {
   text-align: center;
   color: #fcfbfb;
   text-decoration: none;
-}
-#hero-msg h1 {
   text-align: center;
-}
-#hero-msg h4 {
-  text-align: center;
-}
-.button-box main {
-  text-align: center;
-}
-main {
-  text-align: center;
-}
-
-section {
-  text-align: center;
-}
-#background {
-  height: 725px;
-  background-color: #420039;
-}
-
-body {
-  background-color: #dcccff;
-  color: #420039;
-}
-header {
-  background-color: #932f6d;
+  padding: 35px;
 }
 nav a:hover {
   background-color: #e07be0;
 }
 
+main {
+  text-align: center;
+}
+h2 {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+h4 {
+  font-size: medium;
+  padding-bottom: 20px;
+}
+section {
+  text-align: center;
+}
+
+header {
+  background-color: #932f6d;
+}
+
 footer {
   background-color: #420039;
   color: #dcccff;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: medium;
 }
 footer p {
   font-size: 1.2em;
@@ -56,11 +60,51 @@ footer p a:hover {
   text-decoration: underline;
   color: #e07be0;
 }
+main section img {
+  box-sizing: border-box;
+}
+
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+#background {
+  height: 725px;
+  background-color: #420039;
+  margin: 150px 0;
+}
+#background p {
+  color: #dcccff;
+}
+#hero-msg h1 {
+  text-align: center;
+}
+#hero-msg h4 {
+  text-align: center;
+}
+.button-box {
+  padding-bottom: 100px;
+}
+.button-box main {
+  text-align: center;
+}
 .icon {
   width: 80px;
 }
 .msg {
   background-color: #932f6d;
+  line-height: 1.5em;
+  padding-bottom: 60px;
+  padding-top: 20px;
+  margin: 80px 0;
+}
+.msg h2 {
+  color: #420039;
+}
+.msg p {
+  color: #dcccff;
+  font-size: medium;
+  padding: 0 10px;
 }
 
 .logo img {
@@ -85,4 +129,21 @@ footer p a:hover {
   background-color: #420039;
   text-decoration: none;
   color: #dcccff;
+}
+
+.book,
+.join {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.card-img {
+  border: 10px solid #420039;
+  margin-top: 100px;
+}
+
+.home-grid {
+  border-top: solid 1px #420039;
 }
