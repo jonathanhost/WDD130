@@ -270,3 +270,74 @@ main section img {
     margin-top: 25px;
   }
 }
+
+.contact-content {
+  display: block;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #420039;
+  color: white;
+}
+.contact-content h1 {
+  grid-column: 1/3;
+}
+
+.form {
+  grid-column: 1;
+}
+.spacefooter {
+  height: 150px;
+  background-color: #dcccff;
+}
+
+#email {
+  width: 80%;
+  height: 50px;
+  margin-bottom: 3%;
+}
+#name {
+  width: 80%;
+  height: 50px;
+  margin-bottom: 3%;
+}
+
+#textbox {
+  width: 80%;
+  height: 200px;
+  margin-bottom: 1.5%;
+}
+
+#submit {
+  border: none;
+  width: 15%;
+  height: 50px;
+  background-color: #932f6d;
+  color: #dcccff;
+  font-weight: bolder;
+  margin-bottom: 3%;
+}
+#submit:hover {
+  background-color: #dcccff;
+  color: #420039;
+}
+.form p {
+  font-size: medium;
+  margin-left: 40px;
+}
+.box-information {
+  margin-top: 10%;
+  padding-top: 5%;
+  border-radius: 5px;
+  margin-left: 10%;
+  background-color: #932f6d;
+  height: 90%;
+  width: 80%;
+}
+
+.box-contact-info {
+  padding-bottom: 10px;
+  font-size: 1rm;
+}
+.box-contact-info p {
+  font-size: large;
+}
