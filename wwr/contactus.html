@@ -15,7 +15,7 @@
       <img id="logo-img" src="./images/logo.png" alt="logo">
     </a>
     <nav>
-      <a href="index.html">Home</a>
+      <a href="wireframe.html">Home</a>
       <a href="plans.html">Plans & Reserve</a>
       <a href="location.html">Locations</a>
       <a href="contactus.html">Contact Us</a>
@@ -28,15 +28,18 @@
   </div>
   <main class="contact-content">
     <h1>Contact Us</h1>
-    <section class="form">
-      <h5>Just send us your questions or conerns by starting a new case and we wll give you the help you need.</h5>
-      <form action="/action_page.php">
 
-        <input type="email" id="email" name="email" placeholder="Email Adress"><br>
-        <input type="text" id="name" name="name" placeholder="Full Name"><br>
-        <input type="text" name="textbox" id="textbox" placeholder="Message"><br>
-        <input type="submit" value="SUBMIT" id="submit">
-      </form>
+    <section class="form">
+
+      <h5>Just send us your questions or conerns by starting a new case and we wll give you the help you need.</h5>
+      <div id="feedback">
+        <form action="/action_page.php" method="post">
+          <input type="email" id="email" name="email" placeholder="Email Adress"><br>
+          <input type="text" id="user_name" name="name" placeholder="Full Name"><br>
+          <input type="text" name="textbox" id="textbox" placeholder="Message"><br>
+          <input type="submit" value="SUBMIT" id="submit">
+        </form>
+      </div>
     </section>
     <section class="information">
       <div class="box-information">
@@ -61,8 +64,6 @@
 
         </div>
 
-
-
       </div>
     </section>
   </main>
@@ -84,6 +85,24 @@
     </div>
   </footer>
 </body>
+<script>
+  // get the feedback div element so we can do something with it.
+  const feedbackElement = document.getElementById('feedback');
+  // get the form so we can read what was entered in it.
+  const formElement = document.forms[0];
+  // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+  formElement.addEventListener('submit', function (e) {
+    // stop the form from doing the default action.
+    e.preventDefault();
+    // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+    feedbackElement.innerHTML = 'Hello ' + formElement.user_name.value + '! Thank you for your message. We will get back with you as soon as possible!';
+    // make the feedback element visible.
+    feedbackElement.style.display = "block";
+    feedbackElement.style.backgroundColor = "Green"
+    // add a class to move everything down so our message doesn't cover it.
+    document.body.classList.toggle('moveDown');
+  });
+</script>
 
 
 </html>
