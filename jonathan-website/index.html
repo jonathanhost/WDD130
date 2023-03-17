@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./styles/style.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,18 +16,25 @@
     </a>
     <nav>
       <a href="index.html">Home</a>
-      <a href="experiences.html">Experiences</a>
+      <a class="exp" href="experiences.html">Experiences</a>
       <a href="certificates.html">Certificates</a>
     </nav>
   </header>
   <div id="banner">
     <div id="banner-box">
-      <img id="hero-img" src="./images/jonathan.jpeg" alt="banner image">
+      <img id="jonathan-img" src="./images/jonathan.jpeg" alt="banner image">
     </div>
     <div class="name">
-      <h1>Jonathan Almeida</h1>
+      <span>
+        <h1>Jonathan</h1>
+        <h1 id="sobrenome">Almeida</h1>
+
+      </span>
+
       <h3>Web Developer</h3>
-      <a href="./resume.pdf">Download Resume </a>
+      <div class="button">
+        <a href="./resume.pdf">Download Resume </a>
+      </div>
     </div>
     <div class="social-midea">
       <a href="https://facebook.com" target="_blank">
@@ -41,29 +48,36 @@
       </a>
     </div>
   </div>
+  <div class="line"></div>
   <main>
+
+
     <div>
       <h1>About Me</h1>
-      <p>I have been working in the website hosting area for about 7 years, during this period I developed experience in correcting problems related to website hosting, with this knowledge mainly related to Wordpress and other CMS such as PrestaShop, OpenCart, Ossclass. I have a course and bootcamp related to website development, where I acquired knowledge in PHP, React, Node.js and JavaScript. I have great knowledge in Cpanel/WHM (where I have certification), database, domains, email service and other resources used by website hosting. During this period I also developed knowledge in configuring Linux servers (I study to obtain the LPIC-1 certification), where I have knowledge in configuring Apache, MySQL, PHP and also panels such as CyberPanel, VestaCP, Centos Web Panel, Cpanel and Webmin. I had the opportunity to work for 5 months as a manager in the technical support area, where I was able to develop skills in people management, setting goals and developing training.</p>
+      <p>I have been working in the website hosting area for about 7 years, during this period I developed experience in correcting problems related to website hosting, with this knowledge mainly related to Wordpress and other CMS such as PrestaShop, OpenCart, Ossclass.</br></br> I have a course and bootcamp related to website development, where I acquired knowledge in PHP, React, Node.js and JavaScript.</br></br> I have great knowledge in Cpanel/WHM (where I have certification), database, domains, email service and other resources used by website hosting. </br></br>During this period I also developed knowledge in configuring Linux servers (I study to obtain the LPIC-1 certification), where I have knowledge in configuring Apache, MySQL, PHP and also panels such as CyberPanel, VestaCP, Centos Web Panel, Cpanel and Webmin.</br></br> I had the opportunity to work for 5 months as a manager in the technical support area, where I was able to develop skills in people management, setting goals and developing training.</p>
     </div>
-    <div>
+    <div class="img-ponte">
       <img src="./images/florianopolis.jpg" alt="florianopolis">
     </div>
     <div class="recomendation">
-      <div>
+      <div class="recomendation-text">
         <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut labore atque recusandae magnam deleniti saepe, ad pariatur dolore totam at provident vel, ipsum unde dolor distinctio. Iste quibusdam voluptate ipsa?</h2>
       </div>
-      <div id="line"></div>
+      <div id="recomendation-line"></div>
       <h3>Name of the Person</h3>
     </div>
   </main>
   <footer>
-    <p><a href="index.html">Home</a></p>
-    <p><a href="experiences.html">Experiences</a></p>
-    <p><a href="certificates.html">Certificates</a></p>
-    <p><a href="site-plan.html">Site Plan</a></p>
-    <p>Florianópolis, Santa Catarina, Brazil.</p>
-    <p>&copy; 2023 - Jonathan Almeida. All rights reserved</p>
+    <div class="menu-footer">
+      <p><a href="index.html">Home</a></p>
+      <p class="footer-item"><a href="experiences.html">Experiences</a></p>
+      <p class="footer-item"><a href="certificates.html">Certificates</a></p>
+      <p class="footer-item"><a href="site-plan.html">Site Plan</a></p>
+    </div>
+    <div class="footer-text">
+      <p>Florianópolis, Santa Catarina, Brazil.</p>
+      <p>&copy; 2023 - Jonathan Almeida. All rights reserved</p>
+    </div>
 
 
   </footer>
