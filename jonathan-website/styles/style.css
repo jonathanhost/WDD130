@@ -170,7 +170,8 @@ footer {
   padding-top: 5%;
   color: #0d1321;
   display: flex;
-  margin-left: 15%;
+  align-items: center;
+  justify-content: center;
 }
 footer a {
   text-align: center;
