@@ -235,3 +235,50 @@ footer a:hover {
     font-size: medium;
   }
 }
+
+@media screen and (max-width: 900px) {
+  header {
+    display: block;
+    height: auto;
+  }
+  nav,
+  footer {
+    flex-direction: column;
+  }
+  nav a {
+    display: block;
+    padding: 15px;
+  }
+
+  #logo_link {
+    padding-left: 20%;
+  }
+  #hero {
+    margin-top: 0;
+  }
+  #banner-box {
+    grid-column: 1/4;
+  }
+  #banner {
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .name {
+    grid-column: 1/3;
+  }
+
+  .button {
+    width: 100%;
+    margin-right: 60%;
+  }
+
+  .name a {
+    width: 100%;
+    border: 1px solid #fcfbfb;
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: #fcfbfb;
+  }
+}
