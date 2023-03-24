@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./styles/style.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,17 +16,19 @@
     </a>
     <nav>
       <a href="index.html">Home</a>
-      <a href="experiences.html">Experiences</a>
+      <a class="exp" href="experiences.html">Experiences</a>
       <a href="certificates.html">Certificates</a>
     </nav>
   </header>
   <div class="banner-certificate">
-    <h1>Certificates</h1>
-    <span id="icon-certificate"></span>
+    <h1 class="title-certificate">Certificates</h1>
+    <div class="icon">
+      <img src="./images/certificate-icon-logo-design-png.webp" alt="">
+    </div>
   </div>
   <main>
     <div class="certifcate-box">
-      <div class="certifcate-item">
+      <div class="certifcate-pathway">
         <img src="./images/pathway.png" alt="pathway">
         <h3>Pathway Connect Dez. 2022</h3>
         <p>BYU Pathway </p>
@@ -37,7 +39,7 @@
           </li>
         </ul>
       </div>
-      <div class="certifcate-item">
+      <div class="certifcate-unicesumar">
         <img src="./images/unicesumar.jpg" alt="unicesumar">
         <h3>Internet Systems Jan. 2019
         </h3>
@@ -52,7 +54,7 @@
           </li>
         </ul>
       </div>
-      <div class="certifcate-item">
+      <div class="certifcate-igti">
         <img src="./images/certificate1.jpeg" alt="igti-certificate">
         <h3>Full Stack Development Bootcamp Set. 2020
         </h3>
@@ -63,7 +65,7 @@
 
         </ul>
       </div>
-      <div class="certifcate-item">
+      <div class="certifcate-feel">
         <img src="./images/Linux_Fael.jpg" alt="linux">
         <h3>LINUX Set. 2020
         </h3>
@@ -83,12 +85,16 @@
   <div class="pre-footer"></div>
 
   <footer>
-    <p><a href="index.html">Home</a></p>
-    <p><a href="experiences.html">Experiences</a></p>
-    <p><a href="certificates.html">Certificates</a></p>
-    <p><a href="site-plan.html">Site Plan</a></p>
-    <p>Florianópolis, Santa Catarina, Brazil.</p>
-    <p>&copy; 2023 - Jonathan Almeida. All rights reserved</p>
+    <div class="menu-footer">
+      <p><a href="index.html">Home</a></p>
+      <p class="footer-item"><a href="experiences.html">Experiences</a></p>
+      <p class="footer-item"><a href="certificates.html">Certificates</a></p>
+      <p class="footer-item"><a href="site-plan.html">Site Plan</a></p>
+    </div>
+    <div class="footer-text">
+      <p>Florianópolis, Santa Catarina, Brazil.</p>
+      <p>&copy; 2023 - Jonathan Almeida. All rights reserved</p>
+    </div>
 
 
   </footer>

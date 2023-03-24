@@ -312,3 +312,42 @@ footer a:hover {
     border-radius: 40px;
   }
 }
+/* CERTIFICATE PAGE */
+.banner-certificate {
+  text-align: center;
+  font-size: 2em;
+}
+.icon img {
+  width: 15%;
+}
+
+.icon {
+  margin-bottom: 5%;
+}
+
+.certifcate-box {
+  padding-top: 5%;
+  grid-column: 1/3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-bottom: 1px solid gray;
+  margin-bottom: 5%;
+}
+
+.certifcate-box p {
+  font-size: large;
+  text-align: left;
+  margin-left: 0;
+}
+.certifcate-box li {
+  font-size: large;
+}
+.certifcate-box img {
+  max-width: 650px;
+}
+
+.pre-footer {
+  background-color: #0d1321;
+  padding: 5%;
+}
