@@ -191,127 +191,6 @@ footer a:hover {
   padding-bottom: 3%;
 }
 
-@media screen and (max-width: 1250px) {
-  nav {
-    display: flex;
-    padding-left: 10%;
-    margin-top: 30px;
-    margin-bottom: 200px;
-  }
-  nav a {
-    text-align: center;
-    color: #fcfbfb;
-    text-decoration: none;
-    text-align: center;
-    padding: 5px 20px;
-  }
-
-  #jonathan-img {
-    width: 200px;
-    border-radius: 7px;
-  }
-
-  footer a {
-    text-align: center;
-    color: #0d1321;
-    text-decoration: none;
-    padding: 3px 20px;
-  }
-  .social-midea {
-    padding-top: 10%;
-  }
-
-  .footer-item {
-    border-left: 1px solid white;
-  }
-  .footer-text {
-    text-align: center;
-    padding-bottom: 3%;
-  }
-}
-
-@media screen and (max-width: 938px) {
-  .name {
-    font-size: medium;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  header {
-    display: block;
-    height: auto;
-  }
-  nav,
-  footer {
-    flex-direction: column;
-  }
-  nav a {
-    margin-left: -10%;
-    display: block;
-    padding: 15px;
-  }
-
-  #jonathan-img {
-    margin-top: -70%;
-    margin-left: -7%;
-    width: 200px;
-    border-radius: 7px;
-  }
-
-  #logo_link {
-    padding-left: 20%;
-  }
-  #banner-box {
-    grid-column: 1/4;
-  }
-  #banner {
-    justify-content: center;
-    justify-items: center;
-  }
-
-  .name {
-    grid-column: 1/3;
-  }
-
-  .button {
-    width: 100%;
-    margin-right: 60%;
-  }
-
-  .name a {
-    width: 100%;
-    border: 1px solid #fcfbfb;
-    border-radius: 15px;
-    padding: 10px;
-    text-decoration: none;
-    color: #fcfbfb;
-  }
-
-  .social-midea {
-    grid-column: 1/3;
-  }
-
-  main {
-    display: grid;
-    grid-template-columns: 100%;
-  }
-  main h1 {
-    grid-column: 1/3;
-  }
-  main p {
-    grid-column: 1/3;
-  }
-  .img-ponte {
-    grid-column: 1/2;
-    margin-top: 5%;
-    margin-left: 20%;
-  }
-
-  .img-ponte img {
-    width: 70%;
-    border-radius: 40px;
-  }
-}
 /* CERTIFICATE PAGE */
 .banner-certificate {
   text-align: center;
@@ -434,4 +313,167 @@ html {
 }
 .skill2 {
   text-align: center;
+}
+
+@media screen and (max-width: 1250px) {
+  nav {
+    display: flex;
+    padding-left: 10%;
+    margin-top: 30px;
+    margin-bottom: 200px;
+  }
+  nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 20px;
+  }
+
+  #jonathan-img {
+    width: 200px;
+    border-radius: 7px;
+  }
+
+  footer a {
+    text-align: center;
+    color: #0d1321;
+    text-decoration: none;
+    padding: 3px 20px;
+  }
+  .social-midea {
+    padding-top: 10%;
+  }
+
+  .footer-item {
+    border-left: 1px solid white;
+  }
+  .footer-text {
+    text-align: center;
+    padding-bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 938px) {
+  .name {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    display: block;
+    height: auto;
+  }
+  nav,
+  footer {
+    flex-direction: column;
+  }
+  nav a {
+    margin-left: -10%;
+    display: block;
+    padding: 15px;
+  }
+
+  #jonathan-img {
+    margin-top: -70%;
+    margin-left: -7%;
+    width: 200px;
+    border-radius: 7px;
+  }
+
+  #logo_link {
+    padding-left: 20%;
+  }
+  #banner-box {
+    grid-column: 1/4;
+  }
+  #banner {
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .name {
+    grid-column: 1/3;
+  }
+
+  .button {
+    width: 100%;
+    margin-right: 60%;
+  }
+
+  .name a {
+    width: 100%;
+    border: 1px solid #fcfbfb;
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: #fcfbfb;
+  }
+
+  .social-midea {
+    grid-column: 1/3;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  main h1 {
+    grid-column: 1/3;
+  }
+  main p {
+    grid-column: 1/3;
+  }
+  .img-ponte {
+    grid-column: 1/2;
+    margin-top: 5%;
+    margin-left: 20%;
+  }
+
+  .img-ponte img {
+    width: 70%;
+    border-radius: 40px;
+  }
+
+  .title-certificate {
+    font-size: 2em;
+  }
+
+  /* CERTIFICATE PAGE */
+  .banner-certificate {
+    text-align: center;
+    font-size: 1em;
+  }
+  .icon img {
+    width: 40%;
+    padding-bottom: 5%;
+  }
+
+  .icon {
+    margin-bottom: 0%;
+  }
+
+  .certifcate-box {
+    padding-top: 5%;
+    grid-column: 1/3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-bottom: 1px solid gray;
+    margin-bottom: 5%;
+  }
+
+  .certifcate-box p {
+    font-size: large;
+    text-align: left;
+    margin-left: 0;
+  }
+  .certifcate-box li {
+    font-size: medium;
+  }
+  .certifcate-box img {
+    max-width: 400px;
+    margin: 5%;
+  }
 }
