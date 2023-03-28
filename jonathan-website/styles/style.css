@@ -352,3 +352,86 @@ footer a:hover {
   background-color: #0d1321;
   padding: 5%;
 }
+
+/* The experience page */
+body,
+html {
+  height: 100%;
+}
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/work.jpg");
+
+  /* Set a specific height */
+  height: 70%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.hero-text p {
+  font-size: 2em;
+}
+
+#profile-experience {
+  margin: 0;
+  padding: 40px 0;
+  grid-column: 1/3;
+}
+
+.img-experience img {
+  padding-left: 20%;
+  width: 70%;
+}
+
+.experiences-box {
+  margin-left: 10%;
+  font-size: large;
+  color: #3e5c76;
+}
+.experience-card {
+  margin-bottom: 10%;
+}
+.experience-card p {
+  margin: 0;
+  font-size: large;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.experience-card h4 {
+  font-size: large;
+  font-style: italic;
+}
+.skills {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 5%;
+}
+.skills h1 {
+  text-align: center;
+  grid-column: 1/3;
+}
+
+.skill1 {
+  text-align: center;
+}
+.skill2 {
+  text-align: center;
+}
